@@ -1,5 +1,5 @@
 {
-  "name": "baguette",
+  "name": "la-baguette",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/three": "^0.149.0",
+    "prettier": "^2.8.4",
     "sass": "^1.58.3",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",

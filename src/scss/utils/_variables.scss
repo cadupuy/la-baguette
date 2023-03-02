@@ -1,0 +1,48 @@
+$_colors: (
+	white: #fff,
+	black: #000,
+);
+
+// 1st level z-indexes. You can get them with z(Z_INDEX_NAME)
+$_z-indexes: (
+	// Gmap + Three
+	map: 0,
+	webgl: 2,
+	// Pages
+	pages: 3,
+	// Floating UI
+	game-panel: 4,
+	hotel-panel: 4,
+	// Black/blur overlay
+	overlay: 6,
+	// On top of overlay
+	popin: 7,
+	status-bar: 8,
+	tuto: 9,
+	app-menu: 10,
+	app-header: 11,
+	// Debug / Outside of app
+	debug: 12,
+	preloader: 13
+);
+
+// You can get them with const(CONSTANTS)
+$_constants: (
+	angle: 16deg,
+	nav-height: 60px,
+);
+
+// You can get them with ease(EASING)
+$_easings: (
+	ease_generic: cubic-bezier(0.645, 0.045, 0.355, 1),
+	ease_in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19),
+	ease_out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1),
+	ease_in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1),
+);
+
+@forward './functions' with (
+	$_z-indexes: $_z-indexes,
+	$_colors: $_colors,
+	$_constants: $_constants,
+	$_easings: $_easings
+);
