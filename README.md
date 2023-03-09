@@ -38,7 +38,7 @@ La Baguette is open source software licensed under the MIT License. See the LICE
 
 ## Credits
 
-La Baguette was created by [Your Name Here]. Special thanks to the creators of the tools and libraries used in this project.
+La Baguette was created by cadupuy. Special thanks to the creators of the tools and libraries used in this project.
 
 PNPM
 Vite.js
