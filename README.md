@@ -1,5 +1,7 @@
 # La Baguette - Three.js Starter Template 🥖
 
+TEMPLATE UNDER CONSTRUCTION. DO NOT USE NOW 
+
 La Baguette is a Three.js starter template for 3D web development projects that uses PNPM, TypeScript, Vite.js, Three.js, Tweakpane, and GSAP.
 
 This starter is designed to simplify setting up Three.js projects by providing a basic configuration for modern development tools and popular libraries.
